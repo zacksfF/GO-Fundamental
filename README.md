@@ -1,2 +1,2 @@
 # GO-Fundamental
-Senior in Go 
+I hope to be **Senior in Go** 
