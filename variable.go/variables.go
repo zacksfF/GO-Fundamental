@@ -2,35 +2,30 @@ package main
 
 import "fmt"
 
-func main() {
-	var mynames = "zakaria"
-	fmt.Println("my name is :", mynames)
+func main(){
+	//var sms int
+	///var costsms float64
+	//var haspe bool
+	//var username string
 
-	var name string = "kathy"
-	fmt.Println("name = ", name)
+	//fmt.Printf(
+		//"%v %f %v",
+		//sms,
+		//costsms,
+		//haspe,
+		//username,
+	//)
 
-	username := "admin"
-	fmt.Println("username= ", username)
+	//congrat := "i am happy"
+	//fmt.Printf(congrat) \
+	//penn := 2
+	//fmt.Println("the type of pe, is %T\n", penn)
 
-	var sum int
-	fmt.Println("The sum is ", sum)
+	//average , display := .23, "is the average open your msg "
+	//fmt.Println(average , display)
 
-	part1, other := 1, 5
-	fmt.Println("part1 is ", part1, "other is ", other)
 
-	part2, other2 := 1, 5
-	fmt.Println("part2 is ", part2, "other2 is ", other2)
-
-	sum = part1 + part2
-	fmt.Println("sum = ", sum)
-
-	var (
-		textName = "variables"
-		textType = "demo"
-	)
-	fmt.Println("textName is", textName)
-	fmt.Println("textType is", textType)
-
-	word1, word2, _ := "hello", "world", "!"
-	fmt.Println(word1, word2)
+	accountAge := 12
+	accountAgeInt := int(accountAge)
+	fmt.Println("you account has existed for ", accountAgeInt, "years" )
 }
