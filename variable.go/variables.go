@@ -2,30 +2,28 @@ package main
 
 import "fmt"
 
-func main(){
-	//var sms int
-	///var costsms float64
-	//var haspe bool
-	//var username string
+var x = 10
 
-	//fmt.Printf(
-		//"%v %f %v",
-		//sms,
-		//costsms,
-		//haspe,
-		//username,
-	//)
+//var (
+//	name             = "FOO"
+//	firstname string = "FOO"
+//	lastName  string
+//)
+var name = "FOO"
+var firsttname string = "FOO"
 
-	//congrat := "i am happy"
-	//fmt.Printf(congrat) \
-	//penn := 2
-	//fmt.Println("the type of pe, is %T\n", penn)
+const (
+	version = 1
+	KeyLen = 10
+)
 
-	//average , display := .23, "is the average open your msg "
-	//fmt.Println(average , display)
+func main() {
 
-
-	accountAge := 12
-	accountAgeInt := int(accountAge)
-	fmt.Println("you account has existed for ", accountAgeInt, "years" )
+	//var version int
+	//version = 10
+	//fmt.Println(name, firstname, lastName)
+	//version := 1 // infer ibt
+	//otherversion :=  "BAR" // string
+	//anoter_version := 10.1 //float
+	fmt.Println(version, KeyLen)
 }
